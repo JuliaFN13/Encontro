@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(234, 236, 238);
+    text-align: center;
+    margin-top: 200px;
+    background-image: url("/img/heart.gif");
+}
+
+h1{
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+button{
+    background-color: #ffffff;
+    border: navajowhite;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+#imagem {
+    display: none; /* Inicialmente oculta */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: auto; /* Altura automática para manter a proporção */
+}
